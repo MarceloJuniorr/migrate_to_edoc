@@ -1,14 +1,12 @@
 {
-  "name": "xml-processor",
+  "name": "xml-processing-server",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "Server for processing XML files and uploading data to an endpoint",
+  "main": "src/app.mjs",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.7.2",
     "exceljs": "^4.4.0",
